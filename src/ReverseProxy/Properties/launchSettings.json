@@ -1,0 +1,14 @@
+﻿{
+  "profiles": {
+    "ReverseProxy": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "applicationUrl": "http://localhost:5003",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:5003/api/service/",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

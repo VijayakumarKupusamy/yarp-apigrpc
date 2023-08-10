@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\orgs\\github\\yarp-apigrpc\\src\\ReverseProxy\\ReverseProxy.csproj": {}
+  },
+  "projects": {
+    "D:\\orgs\\github\\yarp-apigrpc\\src\\ReverseProxy\\ReverseProxy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\orgs\\github\\yarp-apigrpc\\src\\ReverseProxy\\ReverseProxy.csproj",
+        "projectName": "GreeterClient",
+        "projectPath": "D:\\orgs\\github\\yarp-apigrpc\\src\\ReverseProxy\\ReverseProxy.csproj",
+        "packagesPath": "C:\\Users\\TECHAdmin\\.nuget\\packages\\",
+        "outputPath": "D:\\orgs\\github\\yarp-apigrpc\\src\\GreeterClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\NuGet.Config",
+          "C:\\Users\\TECHAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "D:\\Developments\\SourceControl\\gitlab\\vwapie\\framework\\pkgs\\LocalPkgs": {},
+          "D:\\orgs\\gitlab\\dev6-otel\\netcore-appln\\src\\publish": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Yarp.ReverseProxy": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

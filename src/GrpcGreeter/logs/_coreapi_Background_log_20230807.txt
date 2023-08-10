@@ -1,0 +1,26 @@
+07/08/23 17:16:51.440 INF       User profile is available. Using '"C:\Users\TECHAdmin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+07/08/23 17:16:52.683 INF       Now listening on: "http://localhost:5002"
+07/08/23 17:16:52.683 INF       Now listening on: "https://localhost:7290"
+07/08/23 17:16:52.686 INF       Application started. Press Ctrl+C to shut down.
+07/08/23 17:16:52.687 INF       Hosting environment: "Development"
+07/08/23 17:16:52.687 INF       Content root path: "D:\orgs\gitlab\grpc-poc\src\GrpcGreeter"
+07/08/23 17:17:02.221 INF    0HMSN7G1TCES4:00000001   Request starting HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc -
+07/08/23 17:17:02.395 INF    0HMSN7G1TCES4:00000001   Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+07/08/23 17:17:02.404 INF    0HMSN7G1TCES4:00000001   AuthenticationScheme: "Bearer" was challenged.
+07/08/23 17:17:02.411 INF    0HMSN7G1TCES4:00000001   Request finished HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc - - 401 0 - 192.8439ms
+07/08/23 17:17:03.211 INF    0HMSN7G1TCES4:00000003   Request starting HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc -
+07/08/23 17:17:03.215 INF    0HMSN7G1TCES4:00000003   Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+07/08/23 17:17:03.215 INF    0HMSN7G1TCES4:00000003   AuthenticationScheme: "Bearer" was challenged.
+07/08/23 17:17:03.216 INF    0HMSN7G1TCES4:00000003   Request finished HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc - - 401 0 - 5.0099ms
+07/08/23 17:17:03.901 INF    0HMSN7G1TCES4:00000005   Request starting HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc -
+07/08/23 17:17:03.902 INF    0HMSN7G1TCES4:00000005   Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+07/08/23 17:17:03.902 INF    0HMSN7G1TCES4:00000005   AuthenticationScheme: "Bearer" was challenged.
+07/08/23 17:17:03.902 INF    0HMSN7G1TCES4:00000005   Request finished HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc - - 401 0 - 0.8376ms
+07/08/23 17:17:54.157 INF    0HMSN7G1TCES4:00000007   Request starting HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc -
+07/08/23 17:17:54.157 INF    0HMSN7G1TCES4:00000007   Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+07/08/23 17:17:54.157 INF    0HMSN7G1TCES4:00000007   AuthenticationScheme: "Bearer" was challenged.
+07/08/23 17:17:54.157 INF    0HMSN7G1TCES4:00000007   Request finished HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc - - 401 0 - 0.3000ms

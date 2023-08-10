@@ -1,0 +1,6 @@
+10/08/23 15:49:04.665 INF       User profile is available. Using '"C:\Users\TECHAdmin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+10/08/23 15:49:04.981 INF       Now listening on: "http://localhost:5000"
+10/08/23 15:49:04.981 INF       Now listening on: "https://localhost:5001"
+10/08/23 15:49:04.984 INF       Application started. Press Ctrl+C to shut down.
+10/08/23 15:49:04.984 INF       Hosting environment: "Production"
+10/08/23 15:49:04.984 INF       Content root path: "D:\orgs\gitlab\grpc-poc\src\GrpcGreeter\bin\Debug\net6.0"

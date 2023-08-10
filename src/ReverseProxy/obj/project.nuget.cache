@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qJZldEQI5t3iDZ77trd6RiYEJhYAnYwbyAxituO4kFe2ZgaF60tws9u5wES4uBWFaE92cCAFTGmTZ5IA+jATOQ==",
+  "success": true,
+  "projectFilePath": "D:\\orgs\\github\\yarp-apigrpc\\src\\ReverseProxy\\ReverseProxy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TECHAdmin\\.nuget\\packages\\yarp.reverseproxy\\1.1.1\\yarp.reverseproxy.1.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,2 @@
+obj\Debug\net6.0\Protos/LocationData.cs \
+obj\Debug\net6.0\Protos/LocationDataGrpc.cs: Protos/location_data.proto

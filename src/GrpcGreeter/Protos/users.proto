@@ -1,0 +1,56 @@
+syntax = "proto3";
+import "google/protobuf/duration.proto";  
+import "google/protobuf/timestamp.proto";
+option csharp_namespace = "gRPCUnary";
+
+package users;
+
+service UsersData {
+  
+  rpc SaveUsers (UserRepeated) returns (UserResponse);
+  rpc SaveUser (UserDetails) returns (UserResponse);
+
+  rpc GetUsers (UserRequest) returns  (UserRepeated);
+}
+
+message UserResponse {
+  string message = 1;
+}
+
+message UserRequest {
+  int32 dataLimit = 1;
+}
+message UserRepeated{
+	repeated UserDetails UserDetails = 1; 
+}
+message UserDetails{
+	google.protobuf.Timestamp Accprofacceffectivefrom = 1;
+	google.protobuf.Timestamp Accprofacceffectiveto=2;
+
+	int32 Accprofaccexpdays=3;
+
+	string Accprofaccneverexp=4;
+	string Accprofconcurrentlogin=5;
+	string Accprofdesignation=6;
+	string Accprofpicture=7;
+	string Department=8;
+	string Displayname=9;
+	string Email=10;
+	string Emailnickname=11;
+	string Lastname=12;
+	string Middlename=13;
+	string Mobilenumber=14;
+
+	int32 Preferredlanguage=15;
+
+	string Pwdprofforcechngpwdnextsignin=16;
+	string Pwdprofiledisablepasswordexpiration=17;
+	string Pwdprofiledisablestrongpassword=18;
+	string Pwdprofileenforcechngpwdpolicy=19;
+	string Pwdprofilepassword=20;
+	string Userdescription=21;
+	string Userextendedstatus=22;
+	string Username=23;
+	string WorkLocation=24;
+
+} 

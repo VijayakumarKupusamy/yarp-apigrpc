@@ -1,0 +1,164 @@
+08/08/23 11:18:08.311 INF       User profile is available. Using '"C:\Users\TECHAdmin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+08/08/23 11:18:09.609 INF       Now listening on: "http://localhost:5002"
+08/08/23 11:18:09.610 INF       Now listening on: "https://localhost:7290"
+08/08/23 11:18:09.614 INF       Application started. Press Ctrl+C to shut down.
+08/08/23 11:18:09.614 INF       Hosting environment: "Development"
+08/08/23 11:18:09.614 INF       Content root path: "D:\orgs\gitlab\grpc-poc\src\GrpcGreeter"
+08/08/23 11:19:08.726 INF       User profile is available. Using '"C:\Users\TECHAdmin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+08/08/23 11:19:09.420 INF       Now listening on: "http://localhost:5002"
+08/08/23 11:19:09.420 INF       Now listening on: "https://localhost:7290"
+08/08/23 11:19:09.427 INF       Application started. Press Ctrl+C to shut down.
+08/08/23 11:19:09.427 INF       Hosting environment: "Development"
+08/08/23 11:19:09.427 INF       Content root path: "D:\orgs\gitlab\grpc-poc\src\GrpcGreeter"
+08/08/23 11:20:52.258 INF       User profile is available. Using '"C:\Users\TECHAdmin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+08/08/23 11:20:53.285 INF       Now listening on: "http://localhost:5002"
+08/08/23 11:20:53.285 INF       Now listening on: "https://localhost:7290"
+08/08/23 11:20:53.293 INF       Application started. Press Ctrl+C to shut down.
+08/08/23 11:20:53.294 INF       Hosting environment: "Development"
+08/08/23 11:20:53.294 INF       Content root path: "D:\orgs\gitlab\grpc-poc\src\GrpcGreeter"
+08/08/23 11:21:05.875 INF    0HMSNQDQE0AEO:00000001   Request starting HTTP/2 POST http://localhost:5002/grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo application/grpc -
+08/08/23 11:21:06.390 INF    0HMSNQDQE0AEO:00000001   Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenUnableToValidateException: IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, String kid, TokenValidationParameters validationParameters, StringBuilder exceptionStrings)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+08/08/23 11:21:06.399 INF    0HMSNQDQE0AEO:00000001   "Bearer" was not authenticated. Failure message: "IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'"
+08/08/23 11:21:06.407 INF    0HMSNQDQE0AEO:00000001   Executing endpoint '"gRPC - /grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo"'
+08/08/23 11:21:06.666 INF    0HMSNQDQE0AEO:00000003   Request starting HTTP/2 POST http://localhost:5002/grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo application/grpc -
+08/08/23 11:21:06.667 INF    0HMSNQDQE0AEO:00000001   Executed endpoint '"gRPC - /grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo"'
+08/08/23 11:21:06.670 INF    0HMSNQDQE0AEO:00000003   Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenUnableToValidateException: IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, String kid, TokenValidationParameters validationParameters, StringBuilder exceptionStrings)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+08/08/23 11:21:06.670 INF    0HMSNQDQE0AEO:00000003   "Bearer" was not authenticated. Failure message: "IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'"
+08/08/23 11:21:06.671 INF    0HMSNQDQE0AEO:00000003   Executing endpoint '"gRPC - /grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo"'
+08/08/23 11:21:06.674 INF    0HMSNQDQE0AEO:00000001   Request finished HTTP/2 POST http://localhost:5002/grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo application/grpc - - 200 - application/grpc 801.8728ms
+08/08/23 11:21:06.688 INF    0HMSNQDQE0AEO:00000003   Executed endpoint '"gRPC - /grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo"'
+08/08/23 11:21:06.688 INF    0HMSNQDQE0AEO:00000003   Request finished HTTP/2 POST http://localhost:5002/grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo application/grpc - - 200 - application/grpc 21.5962ms
+08/08/23 11:21:12.552 INF    0HMSNQDQE0AEQ:00000001   Request starting HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello1 application/grpc -
+08/08/23 11:21:12.554 INF    0HMSNQDQE0AEQ:00000001   Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenUnableToValidateException: IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, String kid, TokenValidationParameters validationParameters, StringBuilder exceptionStrings)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+08/08/23 11:21:12.554 INF    0HMSNQDQE0AEQ:00000001   "Bearer" was not authenticated. Failure message: "IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'"
+08/08/23 11:21:12.555 INF    0HMSNQDQE0AEQ:00000001   Executing endpoint '"gRPC - /greet.Greeter/SayHello1"'
+08/08/23 11:21:15.353 INF    0HMSNQDQE0AEQ:00000001   Executed endpoint '"gRPC - /greet.Greeter/SayHello1"'
+08/08/23 11:21:15.353 INF    0HMSNQDQE0AEQ:00000001   Request finished HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello1 application/grpc - - 200 - application/grpc 2800.9455ms
+08/08/23 11:21:48.861 INF       User profile is available. Using '"C:\Users\TECHAdmin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+08/08/23 11:21:49.574 INF       Now listening on: "http://localhost:5002"
+08/08/23 11:21:49.574 INF       Now listening on: "https://localhost:7290"
+08/08/23 11:21:49.578 INF       Application started. Press Ctrl+C to shut down.
+08/08/23 11:21:49.578 INF       Hosting environment: "Development"
+08/08/23 11:21:49.578 INF       Content root path: "D:\orgs\gitlab\grpc-poc\src\GrpcGreeter"
+08/08/23 11:21:59.398 INF    0HMSNQEAC76JD:00000001   Request starting HTTP/2 POST http://localhost:5002/grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo application/grpc -
+08/08/23 11:21:59.962 INF    0HMSNQEAC76JD:00000001   Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenUnableToValidateException: IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, String kid, TokenValidationParameters validationParameters, StringBuilder exceptionStrings)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+08/08/23 11:21:59.966 INF    0HMSNQEAC76JD:00000001   "Bearer" was not authenticated. Failure message: "IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'"
+08/08/23 11:21:59.973 INF    0HMSNQEAC76JD:00000001   Executing endpoint '"gRPC - /grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo"'
+08/08/23 11:22:00.196 INF    0HMSNQEAC76JD:00000003   Request starting HTTP/2 POST http://localhost:5002/grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo application/grpc -
+08/08/23 11:22:00.196 INF    0HMSNQEAC76JD:00000005   Request starting HTTP/2 POST http://localhost:5002/grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo application/grpc -
+08/08/23 11:22:00.207 INF    0HMSNQEAC76JD:00000001   Executed endpoint '"gRPC - /grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo"'
+08/08/23 11:22:00.209 INF    0HMSNQEAC76JD:00000005   Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenUnableToValidateException: IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, String kid, TokenValidationParameters validationParameters, StringBuilder exceptionStrings)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+08/08/23 11:22:00.209 INF    0HMSNQEAC76JD:00000003   Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenUnableToValidateException: IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, String kid, TokenValidationParameters validationParameters, StringBuilder exceptionStrings)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+08/08/23 11:22:00.209 INF    0HMSNQEAC76JD:00000005   "Bearer" was not authenticated. Failure message: "IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'"
+08/08/23 11:22:00.210 INF    0HMSNQEAC76JD:00000003   "Bearer" was not authenticated. Failure message: "IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'"
+08/08/23 11:22:00.210 INF    0HMSNQEAC76JD:00000003   Executing endpoint '"gRPC - /grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo"'
+08/08/23 11:22:00.210 INF    0HMSNQEAC76JD:00000005   Executing endpoint '"gRPC - /grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo"'
+08/08/23 11:22:00.225 INF    0HMSNQEAC76JD:00000001   Request finished HTTP/2 POST http://localhost:5002/grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo application/grpc - - 200 - application/grpc 831.3359ms
+08/08/23 11:22:00.226 INF    0HMSNQEAC76JD:00000003   Executed endpoint '"gRPC - /grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo"'
+08/08/23 11:22:00.226 INF    0HMSNQEAC76JD:00000005   Executed endpoint '"gRPC - /grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo"'
+08/08/23 11:22:00.226 INF    0HMSNQEAC76JD:00000003   Request finished HTTP/2 POST http://localhost:5002/grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo application/grpc - - 200 - application/grpc 29.8821ms
+08/08/23 11:22:00.226 INF    0HMSNQEAC76JD:00000005   Request finished HTTP/2 POST http://localhost:5002/grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo application/grpc - - 200 - application/grpc 29.8822ms
+08/08/23 11:22:29.166 INF    0HMSNQEAC76JF:00000001   Request starting HTTP/2 POST http://localhost:5002/location_data.LocationData/GetLocations application/grpc -
+08/08/23 11:22:29.174 INF    0HMSNQEAC76JF:00000001   Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenUnableToValidateException: IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, String kid, TokenValidationParameters validationParameters, StringBuilder exceptionStrings)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+08/08/23 11:22:29.174 INF    0HMSNQEAC76JF:00000001   "Bearer" was not authenticated. Failure message: "IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'"
+08/08/23 11:22:29.174 INF    0HMSNQEAC76JF:00000001   Executing endpoint '"gRPC - /location_data.LocationData/GetLocations"'
+08/08/23 11:22:30.869 INF    0HMSNQEAC76JF:00000001   Incoming request for GetLocationData
+08/08/23 11:22:30.878 INF    0HMSNQEAC76JF:00000001   Executed endpoint '"gRPC - /location_data.LocationData/GetLocations"'
+08/08/23 11:22:30.878 INF    0HMSNQEAC76JF:00000001   Request finished HTTP/2 POST http://localhost:5002/location_data.LocationData/GetLocations application/grpc - - 200 - application/grpc 1713.0142ms
+08/08/23 20:05:05.813 INF       User profile is available. Using '"C:\Users\TECHAdmin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+08/08/23 20:05:08.305 INF       Now listening on: "http://localhost:5002"
+08/08/23 20:05:08.306 INF       Now listening on: "https://localhost:7290"
+08/08/23 20:05:08.312 INF       Application started. Press Ctrl+C to shut down.
+08/08/23 20:05:08.312 INF       Hosting environment: "Development"
+08/08/23 20:05:08.312 INF       Content root path: "D:\orgs\gitlab\grpc-poc\src\GrpcGreeter"

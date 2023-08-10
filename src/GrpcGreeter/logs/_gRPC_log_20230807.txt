@@ -1,0 +1,113 @@
+07/08/23 17:19:58.847 INF       User profile is available. Using '"C:\Users\TECHAdmin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+07/08/23 17:19:59.863 INF       Now listening on: "http://localhost:5002"
+07/08/23 17:19:59.863 INF       Now listening on: "https://localhost:7290"
+07/08/23 17:19:59.867 INF       Application started. Press Ctrl+C to shut down.
+07/08/23 17:19:59.868 INF       Hosting environment: "Development"
+07/08/23 17:19:59.868 INF       Content root path: "D:\orgs\gitlab\grpc-poc\src\GrpcGreeter"
+07/08/23 17:20:06.919 INF    0HMSN7HOUOEAJ:00000001   Request starting HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc -
+07/08/23 17:20:28.791 INF    0HMSN7HOUOEAJ:00000001   Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+Handler assertion should evaluate to true."
+07/08/23 17:20:28.798 INF    0HMSN7HOUOEAJ:00000001   AuthenticationScheme: "Bearer" was challenged.
+07/08/23 17:20:28.803 INF    0HMSN7HOUOEAJ:00000001   Request finished HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc - - 401 0 - 21888.2068ms
+07/08/23 17:21:26.938 INF       User profile is available. Using '"C:\Users\TECHAdmin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+07/08/23 17:21:27.760 INF       Now listening on: "http://localhost:5002"
+07/08/23 17:21:27.760 INF       Now listening on: "https://localhost:7290"
+07/08/23 17:21:27.764 INF       Application started. Press Ctrl+C to shut down.
+07/08/23 17:21:27.764 INF       Hosting environment: "Development"
+07/08/23 17:21:27.764 INF       Content root path: "D:\orgs\gitlab\grpc-poc\src\GrpcGreeter"
+07/08/23 17:21:48.104 INF    0HMSN7IN3EBLJ:00000001   Request starting HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc -
+07/08/23 17:21:48.581 INF    0HMSN7IN3EBLJ:00000001   Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenUnableToValidateException: IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, String kid, TokenValidationParameters validationParameters, StringBuilder exceptionStrings)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+07/08/23 17:21:48.588 INF    0HMSN7IN3EBLJ:00000001   "Bearer" was not authenticated. Failure message: "IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'"
+07/08/23 17:21:48.599 INF    0HMSN7IN3EBLJ:00000001   Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+Handler assertion should evaluate to true."
+07/08/23 17:21:48.612 INF    0HMSN7IN3EBLJ:00000001   AuthenticationScheme: "Bearer" was challenged.
+07/08/23 17:21:48.622 INF    0HMSN7IN3EBLJ:00000001   Request finished HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc - - 401 0 - 519.9656ms
+07/08/23 17:21:50.339 INF    0HMSN7IN3EBLJ:00000003   Request starting HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc -
+07/08/23 17:21:50.343 INF    0HMSN7IN3EBLJ:00000003   Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenUnableToValidateException: IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, String kid, TokenValidationParameters validationParameters, StringBuilder exceptionStrings)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+07/08/23 17:21:50.344 INF    0HMSN7IN3EBLJ:00000003   "Bearer" was not authenticated. Failure message: "IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'"
+07/08/23 17:21:50.344 INF    0HMSN7IN3EBLJ:00000003   Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+Handler assertion should evaluate to true."
+07/08/23 17:21:50.344 INF    0HMSN7IN3EBLJ:00000003   AuthenticationScheme: "Bearer" was challenged.
+07/08/23 17:21:50.345 INF    0HMSN7IN3EBLJ:00000003   Request finished HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc - - 401 0 - 5.2840ms
+07/08/23 17:23:17.897 INF    0HMSN7IN3EBLJ:00000005   Request starting HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc -
+07/08/23 17:23:17.902 INF    0HMSN7IN3EBLJ:00000005   Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenUnableToValidateException: IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, String kid, TokenValidationParameters validationParameters, StringBuilder exceptionStrings)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+07/08/23 17:23:17.902 INF    0HMSN7IN3EBLJ:00000005   "Bearer" was not authenticated. Failure message: "IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'"
+07/08/23 17:23:41.386 INF    0HMSN7IN3EBLJ:00000005   Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+Handler assertion should evaluate to true."
+07/08/23 17:23:41.391 INF    0HMSN7IN3EBLJ:00000005   AuthenticationScheme: "Bearer" was challenged.
+07/08/23 17:23:41.395 INF    0HMSN7IN3EBLJ:00000005   Request finished HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc - - 401 0 - 23497.4999ms
+07/08/23 17:23:58.556 INF       User profile is available. Using '"C:\Users\TECHAdmin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+07/08/23 17:23:59.750 INF       Now listening on: "http://localhost:5002"
+07/08/23 17:23:59.754 INF       Now listening on: "https://localhost:7290"
+07/08/23 17:23:59.760 INF       Application started. Press Ctrl+C to shut down.
+07/08/23 17:23:59.760 INF       Hosting environment: "Development"
+07/08/23 17:23:59.760 INF       Content root path: "D:\orgs\gitlab\grpc-poc\src\GrpcGreeter"
+07/08/23 17:24:02.939 INF    0HMSN7JV9SH4L:00000001   Request starting HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc -
+07/08/23 17:24:03.333 INF    0HMSN7JV9SH4L:00000001   Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenUnableToValidateException: IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'
+   at Microsoft.IdentityModel.Tokens.InternalValidators.ValidateLifetimeAndIssuerAfterSignatureNotValidatedJwt(SecurityToken securityToken, Nullable`1 notBefore, Nullable`1 expires, String kid, TokenValidationParameters validationParameters, StringBuilder exceptionStrings)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+07/08/23 17:24:03.336 INF    0HMSN7JV9SH4L:00000001   "Bearer" was not authenticated. Failure message: "IDX10516: Signature validation failed. Unable to match key: 
+kid: 'System.String'.
+Exceptions caught:
+ 'System.Text.StringBuilder'. 
+token: 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken'. Valid Lifetime: 'System.Boolean'. Valid Issuer: 'System.Boolean'"
+07/08/23 17:24:06.414 INF    0HMSN7JV9SH4L:00000001   Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+07/08/23 17:24:06.430 INF    0HMSN7JV9SH4L:00000001   AuthenticationScheme: "Bearer" was challenged.
+07/08/23 17:24:06.438 INF    0HMSN7JV9SH4L:00000001   Request finished HTTP/2 POST http://localhost:5002/greet.Greeter/SayHello application/grpc - - 401 0 - 3501.6358ms
+07/08/23 17:32:51.375 INF       User profile is available. Using '"C:\Users\TECHAdmin\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+07/08/23 17:32:52.001 INF       Now listening on: "http://localhost:5002"
+07/08/23 17:32:52.001 INF       Now listening on: "https://localhost:7290"
+07/08/23 17:32:52.004 INF       Application started. Press Ctrl+C to shut down.
+07/08/23 17:32:52.004 INF       Hosting environment: "Development"
+07/08/23 17:32:52.005 INF       Content root path: "D:\orgs\gitlab\grpc-poc\src\GrpcGreeter"
